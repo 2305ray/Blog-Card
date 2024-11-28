@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLOR*/
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray-500: hsl(0, 0%, 42%);
+--Gray-950: hsl(0, 0%, 7%);
+
+/* FONT */
+--italic-font: 'Figtree-Italic', sans-serif;
+--variable-font: 'Figtree-VariableFont', sans-serif;
+--extra-bold-font: 'Figtree-ExtraBold', sans-serif;
+--semi-bold-font: 'Figtree-SemiBold', sans-serif;
+}
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype'),
+         url('../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype'),
+         url('../assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+        
+     }
+        
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--Yellow);
+    width: 100%;
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+    
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   background-color: var(--White);
+   margin: 6rem;
+   margin-bottom: 3rem;
+   height: 35rem;
+   width: 25rem;
+   box-shadow: 0.8rem 0.8rem var(--Gray-950);
+   border-radius: 20px;
+   border: 1px solid var(--Gray-950);
+   padding: 2rem;
+   gap: 1.5rem;
+}
+
+
+
+.image > img {
+   border-radius: 10px;
+   padding-top: 0;
+}
+
+
+
+.button > button {
+    border-radius: 4px;
+    border: none;
+    background-color: var(--Yellow);
+    padding: 8px;
+    font-family: var(--extra-bold-font);
+    color: var(--Gray-950);
+    font-weight: 900;
+
+}
+
+.button > p {
+    font-family: var(--semi-bold-font);
+    color: var(--Gray-500);
+    padding-top: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button > button:hover{
+    background-color: var(--Gray-950);
+    transition: 0.1s;
+    color: var(--White);
+    cursor: pointer;
+}
+
+.text > h3 {
+    font-family: var(--extra-bold-font);
+    font-weight: 900;
+    color: var(--Gray-950);
+    padding-bottom: 1rem;
+}
+
+.text > h3:hover {
+ color: var(--Yellow);
+ cursor: pointer;
+ transition: 0.2s;
+}
+
+ .text {
+    
+    font-family: var(--semi-bold-font);
+    color: var(--Gray-500);
+    font-size: 16px;
+}
+
+
+
+
+  .author-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.875rem; 
+    font-weight: 800;
+    margin-top: 1rem;
+    
+}
+
+.author-container img {
+    width: 32px;
+    height: 32px;
+}
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
