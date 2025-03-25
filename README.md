@@ -43,7 +43,7 @@ O layout **Blog-Preview-Card** é bem básico, focado em praticar o box model e 
 
 ### 📱 Mobile  
 <p align="center">
-  <img alt="bento-grid" src="https://github.com/2305ray/Bento-Grid/blob/main/assets/images/bento-grid-mobile.jpg" width="25%">
+  <img alt="bento-grid" src="https://github.com/2305ray/Blog-Card/blob/main/assets/images/blog-card-mobile.png" width="25%">
 </p>
 
 ---
