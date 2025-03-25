@@ -22,14 +22,14 @@ Projeto feito usando apenas HTML e CSS para praticar a estrutura do HTML e aperf
 
 ---
 
-## 🚀 Tecnologias utilizadas  
+## 🚀 Tecnologias  
 
 - **HTML** – Estruturação da página  
 - **CSS** – Estilização e Box model  
 
 ---
 
-## 💻 Sobre o projeto  
+## 💻 Projeto  
 
 Este projeto foi criado como parte de um desafio do **Frontend Mentor**, que fornece designs para que desenvolvedores possam praticar **HTML, CSS e JavaScript**.  
 
