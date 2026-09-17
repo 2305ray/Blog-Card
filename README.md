@@ -1,68 +1,19 @@
-<h1 align="center"> Blog preview card </h1>
+[README.md](https://github.com/user-attachments/files/32347703/README.md)
+# Blog-Card
 
-<p align="center">
-Projeto feito usando apenas HTML e CSS para praticar a estrutura do HTML e aperfeiçoar meu entendimento do box model<br/>
-</p>
+Componente de card de preview de post de blog (desafio do Frontend Mentor), com imagem de capa, tag de categoria, data de publicação, título, descrição e informações do autor. Projeto feito para praticar a estruturação em HTML e o Box Model do CSS.
 
-<div align="center">
-  
-[![Tecnologias](https://img.shields.io/badge/Tecnologias-purple?style=for-the-badge)](#-tecnologias)
-[![Projeto](https://img.shields.io/badge/Projeto-blue?style=for-the-badge)](#-projeto)
-[![Layout](https://img.shields.io/badge/Layout-red?style=for-the-badge)](#-layout)
+## 🚀 Tecnologias utilizadas
 
-</div>
+- HTML5
+- CSS3
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+## 📦 Como rodar
 
-<br>
+Como é um projeto estático (sem build), basta abrir o arquivo `HTML/index.html` diretamente no navegador, ou usar uma extensão como o Live Server no VSCode.
 
-![Design preview for the Blog preview card coding challenge](./preview.jpg)
-
----
-
-## 🚀 Tecnologias  
-
-- **HTML** – Estruturação da página  
-- **CSS** – Estilização e Box model  
-
----
-
-## 💻 Projeto  
-
-Este projeto foi criado como parte de um desafio do **Frontend Mentor**, que fornece designs para que desenvolvedores possam praticar **HTML, CSS e JavaScript**.  
-
-O layout **Blog-Preview-Card** é bem básico, focado em praticar o box model e conceitos simples de CSS.
-
-- 🔗 [Desafio no Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
-
----
-
-## 🔖 Layout  
-
-### 📱 Mobile  
-<p align="center">
-  <img alt="bento-grid" src="https://github.com/2305ray/Blog-Card/blob/main/assets/images/blog-card-mobile.png" width="25%">
-</p>
-
----
-
-## 🛠 Como rodar o projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/2305ray/Blog-Card.git
-   ```
-2. Acesse a pasta do projeto:
-   ```bash
-   cd Blog-Card
-   ```
-3. Abra o arquivo index.html no navegador:
-   ```bash
-   start index.html
-   ```
----
-
-<p align="center"> Feito com ♥ </p>
-
+```bash
+git clone https://github.com/2305ray/Blog-Card.git
+cd Blog-Card
+# abra o HTML/index.html no navegador
+```
